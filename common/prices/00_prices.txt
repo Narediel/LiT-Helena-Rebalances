@@ -4,41 +4,41 @@
 
 # Base resources
 grain = {
-	base_price = 2.5
+	base_price = 2
 }
 
 wine = {
-	base_price = 2.5
+	base_price = 2
 }
 
 wool = {
-	base_price = 2.5
+	base_price = 2
 }
 
 cloth = {
-	base_price = 3
-}
-
-fish = {
 	base_price = 2.5
 }
 
-fur = {
+fish = {
 	base_price = 2
+}
+
+fur = {
+	base_price = 1.5
 }
 
 salt = {
-	base_price = 3
+	base_price = 2.5
 }
 
 naval_supplies = {
-	base_price = 2
+	base_price = 1.5
 }
 
 
 # Metals
 copper = {
-	base_price = 3
+	base_price = 2.5
 }
 
 gold = {
@@ -47,88 +47,88 @@ gold = {
 }
 
 iron = {
-	base_price = 3
+	base_price = 2.5
 }
 
 
 # African Resources
 slaves = {
-	base_price = 2
+	base_price = 1.5
 }
 ivory = {
-	base_price = 4
+	base_price = 3.5
 }
 
 
 # Eastern Resources
 tea = {
-	base_price = 2
+	base_price = 1.5
 }
 
 chinaware = {
-	base_price = 3
+	base_price = 2.5
 }
 
 spices = {
-	base_price = 3
+	base_price = 2.5
 }
 
 
 # New World Resources
 coffee = {
-	base_price = 3
+	base_price = 2.5
 }
 
 cotton = {
-	base_price = 3
+	base_price = 2.5
 }
 
 sugar = {
-	base_price = 3
+	base_price = 2.5
 }
 
 tobacco = {
-	base_price = 3
+	base_price = 2.5
 }
 
 cocoa = {
-	base_price = 4
+	base_price = 3.5
 }
 
 # New Non-European Tradegoods
 
 silk = {
-	base_price = 4
+	base_price = 3.5
 }
 
 tropical_wood = {
-	base_price = 2
+	base_price = 1.5
 }
 
 dyes = {
-	base_price = 4
+	base_price = 3.5
 }
 
 #Additional Trade Goods
 
 livestock = {
-	base_price = 2
+	base_price = 1.5
 }
 
 incense = {
-	base_price = 2.5
+	base_price = 2
 }
 
 glass = {
-	base_price = 3
+	base_price = 2.5
 }
 
 gems = {
-	base_price = 4
+	base_price = 3.5
 }
 
 paper = {
-	base_price = 3.5
+	base_price = 3
 }
 
 coal = {
@@ -140,51 +140,51 @@ unknown = {
 }
 
 beer = {
-	base_price = 2
+	base_price = 1.5
 }
 
 books = {
-	base_price = 3.5
+	base_price = 3
 }
 
 rice = {
-	base_price = 2.25
+	base_price = 1.75
 }
 
 whales = {
-	base_price = 3
+	base_price = 2.5
 }
 
 potatoes = {
-	base_price = 2.25
+	base_price = 1.75
 }
 
 maize = {
-	base_price = 2
+	base_price = 1.5
 }
 
 millet = {
-	base_price = 2
+	base_price = 1.5
 }
 
 apiculture = {
-	base_price = 2.5
+	base_price = 2
 }
 
 fruit = {
-	base_price = 2.5
+	base_price = 2
 }
 
 olives = {
-	base_price = 3
+	base_price = 2.5
 }
 
 dates = {
-	base_price = 3
+	base_price = 2.5
 }
 
 marble = {
-	base_price = 3.0
+	base_price = 2.5
 }
 
 oil = {
@@ -196,17 +196,17 @@ rubber = {
 }
 
 amaranth = {
-	base_price = 2
+	base_price = 1.5
 }
 
 legumes = {
-	base_price = 2
+	base_price = 1.5
 }
 
 teff = {
-	base_price = 2
+	base_price = 1.5
 }
 
 pearls = {
-	base_price = 4
+	base_price = 3.5
 }

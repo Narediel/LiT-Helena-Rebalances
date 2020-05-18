@@ -38,7 +38,7 @@ age_of_discovery = {
 					}
 				}
 			}
-			total_development = 100
+			total_development = 150
 
 		}
 		

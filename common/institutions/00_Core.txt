@@ -17,8 +17,8 @@
 feudalism = {
 	penalty = 0.5
 	bonus = {
-		diplomatic_upkeep = 1
-		free_leader_pool = 1
+		vassal_income = 0.25
+		global_autonomy = 0.03
 	}
 
 	trade_company_efficiency = 0.0
@@ -272,7 +272,7 @@ renaissance = {
 
 	bonus = {
 		idea_cost = -0.05
-		build_cost = -0.05
+		global_missionary_strength = -0.01
 	}
 
 	trade_company_efficiency = 0.0
@@ -535,8 +535,8 @@ new_world_i = {
 	penalty = 0.5
 
 	bonus = {
-		trade_steering = 0.1
-		global_colonial_growth = 10
+		caravan_power = -0.15
+		colonist_placement_chance = 0.05
 	}
 
 	trade_company_efficiency = 0.0
@@ -805,8 +805,8 @@ printing_press = {
 	penalty = 0.5
 
 	bonus = {
-		stability_cost_modifier = -0.05
-		global_institution_spread = 0.1
+		advisor_cost = 0.1
+		global_institution_spread = 0.25
 	}
 
 	trade_company_efficiency = 0.0
@@ -1132,8 +1132,8 @@ global_trade = {
 	penalty = 0.5
 
 	bonus = {
-		merchants = 1
-		trade_range_modifier = 0.2
+		global_spy_defence = -0.2
+		trade_range_modifier = 0.33
 	}
 
 	trade_company_efficiency = 0.1
@@ -1273,8 +1273,10 @@ global_trade = {
 			factor = 0.1
 			scale = yes
 			potential = {
-                province_has_center_of_trade_of_level = 1
-                NOT = { province_has_center_of_trade_of_level = 3 }
+				OR = {
+					province_has_center_of_trade_of_level = 1
+					province_has_center_of_trade_of_level = 2
+				}
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_center_of_trade_spread
@@ -1414,8 +1416,8 @@ manufactories = {
 	penalty = 0.5
 
 	bonus = {
-		global_trade_goods_size_modifier = 0.1
-		development_cost = -0.05
+		production_efficiency = 0.15
+		state_maintenance_modifier = 0.1
 	}
 
 	trade_company_efficiency = 0.2
@@ -1907,7 +1909,7 @@ enlightenment = {
 
 	bonus = {
 		num_accepted_cultures = 2
-		religious_unity = 0.2
+		ae_impact = 0.1
 	}
 
 	trade_company_efficiency = 0.3
